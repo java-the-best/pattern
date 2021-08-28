@@ -6,6 +6,7 @@ import pattern.builder.BuilderMain;
 import pattern.chainOfResponsibility.ChainOfResponsibilityMain;
 import pattern.command.CommandMain;
 import pattern.composite.CompositeMain;
+import pattern.decorator.DecoratorMain;
 
 public class Main {
 
@@ -15,6 +16,7 @@ public class Main {
 //        BuilderMain.main();
 //        ChainOfResponsibilityMain.main();
 //        CommandMain.main();
-        CompositeMain.main();
+//        CompositeMain.main();
+        DecoratorMain.main();
     }
 }
