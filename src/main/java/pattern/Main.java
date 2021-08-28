@@ -4,6 +4,7 @@ import pattern.adapter.AdapterMain;
 import pattern.bridge.BridgeMain;
 import pattern.builder.BuilderMain;
 import pattern.chainOfResponsibility.ChainOfResponsibilityMain;
+import pattern.command.CommandMain;
 
 public class Main {
 
@@ -11,6 +12,7 @@ public class Main {
 //        AdapterMain.main();
 //        BridgeMain.main();
 //        BuilderMain.main();
-        ChainOfResponsibilityMain.main();
+//        ChainOfResponsibilityMain.main();
+        CommandMain.main();
     }
 }
