@@ -5,6 +5,7 @@ import pattern.bridge.BridgeMain;
 import pattern.builder.BuilderMain;
 import pattern.chainOfResponsibility.ChainOfResponsibilityMain;
 import pattern.command.CommandMain;
+import pattern.composite.CompositeMain;
 
 public class Main {
 
@@ -13,6 +14,7 @@ public class Main {
 //        BridgeMain.main();
 //        BuilderMain.main();
 //        ChainOfResponsibilityMain.main();
-        CommandMain.main();
+//        CommandMain.main();
+        CompositeMain.main();
     }
 }
