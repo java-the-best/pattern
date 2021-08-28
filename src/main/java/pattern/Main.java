@@ -8,6 +8,7 @@ import pattern.command.CommandMain;
 import pattern.composite.CompositeMain;
 import pattern.decorator.DecoratorMain;
 import pattern.facade.FacadeMain;
+import pattern.factoryMethodAndAbstractFactory.FactoryMethodAndAbstractFactoryMain;
 
 public class Main {
 
@@ -19,6 +20,7 @@ public class Main {
 //        CommandMain.main();
 //        CompositeMain.main();
 //        DecoratorMain.main();
-        FacadeMain.main();
+//        FacadeMain.main();
+        FactoryMethodAndAbstractFactoryMain.main();
     }
 }
