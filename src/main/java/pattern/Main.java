@@ -10,6 +10,7 @@ import pattern.decorator.DecoratorMain;
 import pattern.facade.FacadeMain;
 import pattern.factoryMethodAndAbstractFactory.FactoryMethodAndAbstractFactoryMain;
 import pattern.flyWeight.FlyWeightMain;
+import pattern.interpreter.InterpreterMain;
 
 public class Main {
 
@@ -23,6 +24,7 @@ public class Main {
 //        DecoratorMain.main();
 //        FacadeMain.main();
 //        FactoryMethodAndAbstractFactoryMain.main();
-        FlyWeightMain.main();
+//        FlyWeightMain.main();
+        InterpreterMain.main();
     }
 }
