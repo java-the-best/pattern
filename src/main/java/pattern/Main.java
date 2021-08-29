@@ -9,6 +9,7 @@ import pattern.composite.CompositeMain;
 import pattern.decorator.DecoratorMain;
 import pattern.facade.FacadeMain;
 import pattern.factoryMethodAndAbstractFactory.FactoryMethodAndAbstractFactoryMain;
+import pattern.flyWeight.FlyWeightMain;
 
 public class Main {
 
@@ -21,6 +22,7 @@ public class Main {
 //        CompositeMain.main();
 //        DecoratorMain.main();
 //        FacadeMain.main();
-        FactoryMethodAndAbstractFactoryMain.main();
+//        FactoryMethodAndAbstractFactoryMain.main();
+        FlyWeightMain.main();
     }
 }
