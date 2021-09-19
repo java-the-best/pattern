@@ -1,17 +1,7 @@
 package pattern;
 
-import pattern.adapter.AdapterMain;
-import pattern.bridge.BridgeMain;
-import pattern.builder.BuilderMain;
-import pattern.chainOfResponsibility.ChainOfResponsibilityMain;
-import pattern.command.CommandMain;
-import pattern.composite.CompositeMain;
-import pattern.decorator.DecoratorMain;
-import pattern.facade.FacadeMain;
-import pattern.factoryMethodAndAbstractFactory.FactoryMethodAndAbstractFactoryMain;
-import pattern.flyWeight.FlyWeightMain;
-import pattern.interpreter.InterpreterMain;
-import pattern.mediator.MediatorMain;
+import pattern.memento.MementoMain;
+import pattern.observer.ObserverMain;
 
 public class Main {
 
@@ -24,9 +14,11 @@ public class Main {
 //        CompositeMain.main();
 //        DecoratorMain.main();
 //        FacadeMain.main();
-        FactoryMethodAndAbstractFactoryMain.main();
+//        FactoryMethodAndAbstractFactoryMain.main();
 //        FlyWeightMain.main();
 //        InterpreterMain.main();
 //        MediatorMain.main();
+//        MementoMain.main();
+        ObserverMain.main();
     }
 }
