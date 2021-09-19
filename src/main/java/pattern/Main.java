@@ -11,7 +11,7 @@ import pattern.facade.FacadeMain;
 import pattern.factoryMethodAndAbstractFactory.FactoryMethodAndAbstractFactoryMain;
 import pattern.flyWeight.FlyWeightMain;
 import pattern.interpreter.InterpreterMain;
-import pattern.iterator.IteratorMain;
+import pattern.mediator.MediatorMain;
 
 public class Main {
 
@@ -24,9 +24,9 @@ public class Main {
 //        CompositeMain.main();
 //        DecoratorMain.main();
 //        FacadeMain.main();
-//        FactoryMethodAndAbstractFactoryMain.main();
+        FactoryMethodAndAbstractFactoryMain.main();
 //        FlyWeightMain.main();
 //        InterpreterMain.main();
-        IteratorMain.main();
+//        MediatorMain.main();
     }
 }
