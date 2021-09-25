@@ -1,6 +1,7 @@
 package pattern;
 
 import pattern.prototype.PrototypeMain;
+import pattern.proxy.ProxyMain;
 
 public class Main {
 
@@ -19,6 +20,7 @@ public class Main {
 //        MediatorMain.main();
 //        MementoMain.main();
 //        ObserverMain.main();
-        PrototypeMain.main();
+//        PrototypeMain.main();
+        ProxyMain.main();
     }
 }
