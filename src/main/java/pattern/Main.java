@@ -1,7 +1,6 @@
 package pattern;
 
-import pattern.memento.MementoMain;
-import pattern.observer.ObserverMain;
+import pattern.prototype.PrototypeMain;
 
 public class Main {
 
@@ -19,6 +18,7 @@ public class Main {
 //        InterpreterMain.main();
 //        MediatorMain.main();
 //        MementoMain.main();
-        ObserverMain.main();
+//        ObserverMain.main();
+        PrototypeMain.main();
     }
 }
